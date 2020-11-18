@@ -17,5 +17,5 @@
 ## getting started with rails
 ### Ruby Gems
 ### MVC
-### POSTRESQL DATABASE
+### POSTGRESQL DATABASE
 ### HEROKU
