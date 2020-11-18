@@ -11,7 +11,7 @@
 ## Database Knowledge
 
 
-## Heroku web application development
+## Heroku web  deployment
 
 
 ## getting started with rails
