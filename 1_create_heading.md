@@ -1,12 +1,20 @@
-# rails
-# getting started with ruby on rails
+# Linuxコマンド基礎
+# Linux command basics
 
-## introduction to ruby on rails
-## web application development with ruby on rails
+## このテキストのゴール
+## Goal of this text
 
-## database knowledge
-## database associated commands and querries
+## Linuxとは
+## What is Linux?
 
+## Linuxコマンドとは
+## What is a Linux command?
 
-## heroku
-## web application deployment
+## なぜLinuxコマンドを覚える必要があるか
+## Why you need to remember Linux commands
+
+## 実際にLinuxコマンドを使ってみよう！
+## Let's actually use Linux commands!
+### ls
+### mkdir
+### cd
