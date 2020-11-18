@@ -1,20 +1,21 @@
 
-# Linux command basics
+# Web application development with ruby on rails
 
 
-## Goal of this text
+## Introduction to ruby on rails
 
 
-## What is Linux?
+## MVC Architecture
 
 
-## What is a Linux command?
+## Database Knowledge
 
 
-## Why you need to remember Linux commands
+## Heroku web application development
 
 
-## Let's actually use Linux commands!
-### ls
-### mkdir
-### cd
+## getting started with rails
+### Ruby Gems
+### MVC
+### POSTRESQL DATABASE
+### HEROKU
