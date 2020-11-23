@@ -113,7 +113,7 @@ Below I attached a ruby on rails app that I deployed on heroku. Amazing isn’t 
 
 ![heroku example](images/heroku.PNG)
 One of the reasons Heroku is easy for people to use is that it relies on a widely used revision control system—that is, a way of managing the program code for your app—called Git. If you’re not already familiar with Git, 
-you might want to review ReadWrite’s [check this out](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
+you might want to review  [learn more about git/github](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 
 In fact, you can’t deploy an app on Heroku unless you are using Git to manage your app clode. The “push” command, “Heroku push master,” is what you input on the command line to send the app from your repository to the cloud. That’s why Heroku is considered a “one click” deploy.
 
@@ -138,3 +138,20 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 
 ### **See also:** 
 [Recommended learning materials](https://devcenter.heroku.com/articles/git)
+
+## conclusion
+
+This marks the end of this documentation , I hope you did benefit a lot from it and that it helped you on your journey to study ruby on rails. There is still a lot to learn and the more you dig deeper the more fun rails gets. Ruby on rails is one of the kind framework that can develop 
+prototypes as quickly  as it gets.The strength of the framework keeps coding quality constant. Other than that it has no compilation and is short as possible. At the end of this documentation I have attached different helpful articles relating to ruby on rails and feel free to reach out for more clarifications. Thank you.
+
+### Ruby Gems
+### **See also:** 
+[Recommended learning materials](https://devcenter.heroku.com/articles/git)
+
+
+### MVC
+
+### POSTGRESQL DATABASE
+
+
+### HEROKU
