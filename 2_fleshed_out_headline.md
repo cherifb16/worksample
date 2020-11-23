@@ -86,5 +86,5 @@ The browser (on the client) sends a request for a page to the controller on the 
 The controller retrieves the data it needs from the model in order to respond to the request.
 The controller gives the retrieved data to the view.
 The view is rendered and sent back to the client for the browser to display.
-![GitHub Logo](mvc.PNG)
+![mvc picture](mvc.PNG)
 
