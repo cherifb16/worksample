@@ -148,7 +148,7 @@ prototypes as quickly  as it gets.The strength of the framework keeps coding qua
 [RUBY ENVIRONMENT SET UP](https://www.tutorialspoint.com/ruby/ruby_environment.htm)
 ###
 [MORE INFOS](https://www.pluralsight.com/guides/how-to-set-up-a-ruby-development-environment)
-### MVC
+
 ## Ruby Gems
 ### **helpful contents:** 
 [more about ruby gems](https://github.com/rubygems/rubygems)
@@ -159,7 +159,7 @@ prototypes as quickly  as it gets.The strength of the framework keeps coding qua
 [ruby on rails MVC](https://www.tutorialspoint.com/ruby-on-rails/rails-framework.htm)
 ###
 [more contents](https://www.javatpoint.com/ruby-on-rails-mvc)
-### POSTGRESQL DATABASE
+## POSTGRESQL DATABASE
 ### **helpful contents:** 
 [POSTGRESQL set up](https://www.digitalocean.com/community/tutorials/how-to-set-up-ruby-on-rails-with-postgres)
 
