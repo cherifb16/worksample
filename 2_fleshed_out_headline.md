@@ -36,7 +36,7 @@ Rails provides a full stack of components for creating web applications, below a
 - Railties
 - Active Support
 
-**See also:** 
+### **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
 
 ## Mvc architecture
@@ -65,7 +65,7 @@ Rails promotes the concept that models, views, and controllers should be kept se
 
 **Rails scaffolding** is a quick way to generate some of the major pieces of an application. If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job.
 
-**See also:** 
+### **See also:** 
 [Recommended learning materials](https://www.freecodecamp.org/news/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a/)
 
 ## Database knowledge
@@ -99,7 +99,7 @@ Below are Additional codes that you may need to get familiar with, on your journ
 - Rails db:drop
 - Rails db:reset
 
-**See also:** 
+### **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
 
 ## Heroku web deployment
@@ -117,7 +117,7 @@ you might want to review ReadWrite’s [check this out](https://readwrite.com/20
 
 In fact, you can’t deploy an app on Heroku unless you are using Git to manage your app clode. The “push” command, “Heroku push master,” is what you input on the command line to send the app from your repository to the cloud. That’s why Heroku is considered a “one click” deploy.
 
-How to deploy  an app on heroku?
+### How to deploy  an app on heroku?
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
 
 - $ heroku login
@@ -136,5 +136,5 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 - $ git commit -am "make it better"
 - $ git push heroku master
 
-**See also:** 
+### **See also:** 
 [Recommended learning materials](https://devcenter.heroku.com/articles/git)
