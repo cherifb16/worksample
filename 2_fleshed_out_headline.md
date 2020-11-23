@@ -54,16 +54,16 @@ The controller gives the retrieved data to the view.
 The view is rendered and sent back to the client for the browser to display.
 ![mvc picture](mvc.PNG)
 
-Let’s picture this scenario…
+**Let’s picture this scenario…**
 We’ve built an app that has only one button. This button, when pressed, shows user data like name, email, and age. Now, let’s figure out the MVC structure of this app:
 
-For the View, we have the user interface with a button and a table in which the user info will be displayed.
-For the Controller, we have the method show user,that calls the database info on the user and sends it to the view.
-For the Model, we have a User class that will generate a User table in the database (with each row of this database corresponding to a user) and retrieve an object of that class whenever asked by the Controller.
+For the **View**, we have the user interface with a button and a table in which the user info will be displayed.
+For the **Controller**, we have the method show user,that calls the database info on the user and sends it to the view.
+For the **Model**, we have a User class that will generate a User table in the database (with each row of this database corresponding to a user) and retrieve an object of that class whenever asked by the Controller.
 
 Rails promotes the concept that models, views, and controllers should be kept separate by storing the code for each element as separate files in separate directories.
 
-Rails scaffolding is a quick way to generate some of the major pieces of an application. If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job.
+**Rails scaffolding** is a quick way to generate some of the major pieces of an application. If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job.
 
 **See also:** 
 [Recommended learning materials](https://www.freecodecamp.org/news/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a/)
@@ -102,3 +102,39 @@ Below are Additional codes that you may need to get familiar with, on your journ
 **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
 
+## Heroku web deployment
+
+**Heroku** is a platform as a service based on a managed container system, with integrated data services and a powerful ecosystem, for deploying and running modern apps. 
+
+Heroku is known for running apps in dynos – which are really just virtual computers that can be powered up or down based on how big your application is.
+Heroku calls these instances dynos; these are lightweight containers that each run a single command for your app. In my experience as a beginner building apps that only perform one action, I’ve never had more than one dyno per app.
+
+Below I attached a ruby on rails app that I deployed on heroku. Amazing isn’t it?
+
+![heroku example](heroku.PNG)
+One of the reasons Heroku is easy for people to use is that it relies on a widely used revision control system—that is, a way of managing the program code for your app—called Git. If you’re not already familiar with Git, 
+you might want to review ReadWrite’s [check this out](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
+
+In fact, you can’t deploy an app on Heroku unless you are using Git to manage your app clode. The “push” command, “Heroku push master,” is what you input on the command line to send the app from your repository to the cloud. That’s why Heroku is considered a “one click” deploy.
+
+How to deploy  an app on heroku?
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+- $ heroku login
+
+Clone the repository
+
+Use Git to clone young-caverns-00239's source code to your local machine.
+
+- $ heroku git:clone -a young-caverns-00239
+- $ cd young-caverns-00239
+
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+- $ git add .
+- $ git commit -am "make it better"
+- $ git push heroku master
+
+**See also:** 
+[Recommended learning materials](https://devcenter.heroku.com/articles/git)
