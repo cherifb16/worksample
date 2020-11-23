@@ -21,7 +21,7 @@ self is an object.
   puts self<br/>
 end<br/>
 coffee"<br/>
-# main<br/>
+ main<br/>
 
 This code defines & calls a coffee method which prints the value of self.<br/>
 
