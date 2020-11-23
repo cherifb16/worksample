@@ -39,6 +39,35 @@ Rails provides a full stack of components for creating web applications, below a
 **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
 
+## Mvc architecture
+
+In this part, we’re going to learn a little more about the MVC, the system Architecture at the core of the Rails Framework for Software Development. Hopefully, by the end of it, you’ll know why working with system architecture can make all the difference when developing an app.
+
+**MVC** is a pattern for the architecture of a software application. It separates an application into the following components:
+**Models** for handling data and business logic
+**Controllers** for handling the user interface and application
+**Views** for handling graphical user interface objects and presentation
+This separation results in user requests being processed as follows:
+The browser (on the client) sends a request for a page to the controller on the server.
+The controller retrieves the data it needs from the model in order to respond to the request.
+The controller gives the retrieved data to the view.
+The view is rendered and sent back to the client for the browser to display.
+![mvc picture](mvc.PNG)
+
+Let’s picture this scenario…
+We’ve built an app that has only one button. This button, when pressed, shows user data like name, email, and age. Now, let’s figure out the MVC structure of this app:
+
+For the View, we have the user interface with a button and a table in which the user info will be displayed.
+For the Controller, we have the method show user,that calls the database info on the user and sends it to the view.
+For the Model, we have a User class that will generate a User table in the database (with each row of this database corresponding to a user) and retrieve an object of that class whenever asked by the Controller.
+
+Rails promotes the concept that models, views, and controllers should be kept separate by storing the code for each element as separate files in separate directories.
+
+Rails scaffolding is a quick way to generate some of the major pieces of an application. If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job.
+
+**See also:** 
+[Recommended learning materials](https://www.freecodecamp.org/news/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a/)
+
 ## Database knowledge
 
 A **database** is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).
@@ -72,19 +101,4 @@ Below are Additional codes that you may need to get familiar with, on your journ
 
 **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
-
-## Mvc architecture
-
-In this part, we’re going to learn a little more about the MVC, the system Architecture at the core of the Rails Framework for Software Development. Hopefully, by the end of it, you’ll know why working with system architecture can make all the difference when developing an app.
-
-**MVC** is a pattern for the architecture of a software application. It separates an application into the following components:
-**Models** for handling data and business logic
-**Controllers** for handling the user interface and application
-**Views** for handling graphical user interface objects and presentation
-This separation results in user requests being processed as follows:
-The browser (on the client) sends a request for a page to the controller on the server.
-The controller retrieves the data it needs from the model in order to respond to the request.
-The controller gives the retrieved data to the view.
-The view is rendered and sent back to the client for the browser to display.
-![mvc picture](mvc.PNG)
 
