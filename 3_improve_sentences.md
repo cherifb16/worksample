@@ -17,10 +17,10 @@ self is an object.
 
 ### let' see an example
 
-"def coffee
-  puts self
-end
-coffee"
+"def coffee<br/>
+  puts self<br/>
+end<br/>
+coffee"<br/>
 # main<br/>
 
 This code defines & calls a coffee method which prints the value of self.<br/>
@@ -29,20 +29,20 @@ Why is self useful?<br/>
 
 by example<br/>
 
-"class Example
-  def do_something
-    banana = "variable"
-    puts banana
-    puts self.banana
-  end
-  def banana
-    "method"
-  end
-end"
+"class Example <br/>
+  def do_something<br/>
+    banana = "variable"<br/>
+    puts banana<br/>
+    puts self.banana<br/>
+  end<br/>
+  def banana<br/>
+    "method"<br/>
+  end<br/>
+end"<br/>
 
 Example.new.do_something<br/>
-# "variable"  => puts banana <br/>
-# "method"    => puts self.banana <br/>
+ "variable"  => puts banana <br/>
+ "method"    => puts self.banana <br/>
 
 Here we have a banana local variable, inside the do_something method, but we also have a banana method.<br/>
 
