@@ -52,7 +52,7 @@ The browser (on the client) sends a request for a page to the controller on the 
 The controller retrieves the data it needs from the model in order to respond to the request.
 The controller gives the retrieved data to the view.
 The view is rendered and sent back to the client for the browser to display.
-![mvc picture](mvc.PNG)
+![mvc picture](images/mvc.PNG)
 
 **Let’s picture this scenario…**
 We’ve built an app that has only one button. This button, when pressed, shows user data like name, email, and age. Now, let’s figure out the MVC structure of this app:
@@ -111,7 +111,7 @@ Heroku calls these instances dynos; these are lightweight containers that each r
 
 Below I attached a ruby on rails app that I deployed on heroku. Amazing isn’t it?
 
-![heroku example](heroku.PNG)
+![heroku example](images/heroku.PNG)
 One of the reasons Heroku is easy for people to use is that it relies on a widely used revision control system—that is, a way of managing the program code for your app—called Git. If you’re not already familiar with Git, 
 you might want to review ReadWrite’s [check this out](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 
