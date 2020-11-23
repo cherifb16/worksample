@@ -73,5 +73,23 @@ Below are Additional codes that you may need to get familiar with, on your journ
 **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
 
+## Mvc architecture
 
+In this part, we’re going to learn a little more about the MVC, the system Architecture at the core of the Rails Framework for Software Development. Hopefully, by the end of it, you’ll know why working with system architecture can make all the difference when developing an app.
+
+**MVC** is a pattern for the architecture of a software application. It separates an application into the following components:
+**Models** for handling data and business logic
+**Controllers** for handling the user interface and application
+**Views** for handling graphical user interface objects and presentation
+This separation results in user requests being processed as follows:
+The browser (on the client) sends a request for a page to the controller on the server.
+The controller retrieves the data it needs from the model in order to respond to the request.
+The controller gives the retrieved data to the view.
+The view is rendered and sent back to the client for the browser to display.
+<img
+src=“mvc.PNG”
+raw=true
+alt=“Subject Pronouns”
+style=“margin-right: 10px;”
+/>
 
