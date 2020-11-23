@@ -9,13 +9,13 @@ This guide is designed for beginners who want to get started with learning about
 
 ## What is Rails?
 
-Rails is a web application development framework written in the Ruby programming language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks.
+**Rails** is a web application development framework written in the Ruby programming language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks.
 
 The Rails philosophy includes two major guiding principles:
 
-Don't Repeat Yourself: DRY is a principle of software development which states that "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." By not writing the same information over and over again, our code is more maintainable, more extensible, and less buggy.
+**Don't Repeat Yourself**: DRY is a principle of software development which states that "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." By not writing the same information over and over again, our code is more maintainable, more extensible, and less buggy.
 
-Convention Over Configuration: Rails has opinions about the best way to do many things in a web application, and defaults to this set of conventions, rather than require that you specify minutiae through endless configuration files.
+**Convention Over Configuration**: Rails has opinions about the best way to do many things in a web application, and defaults to this set of conventions, rather than require that you specify minutiae through endless configuration files.
 
 It is highly recommended that you familiarize yourself with Ruby before diving into Rails. You will find it much easier to follow what’s going on with a Rails application if you understand basic Ruby syntax. 
 To develop a web application using Ruby on Rails Framework, you need to install the following software:
@@ -38,5 +38,40 @@ Rails provides a full stack of components for creating web applications, below a
 
 **See also:** 
 [Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
+
+## Database knowledge
+
+A **database** is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).
+With ruby on rails database works hand in hand with active record.
+**Active Record** is the **M** in **MVC** - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database.
+Rails uses ActiveRecord to function as a bridge between the database and Ruby code.
+
+Ruby on Rails recommends to create three databases - a database each for development, testing, and production environment.
+
+Each ActiveRecord object has Create, Read, Update and Delete methods for database access. This characteristic allows Ruby on Rails applications to have straightforward mappings between applications objects and database tables. ActiveRecord does away with the need to use SQL in most cases. It is compatible with different databases such as MySQL, SQLite, and PostgreSQL. Irrespective of the database you are using, ActiveRecord method format remains the same.
+
+We use SQL language to manipulate the data. Let’s get the basics.
+
+1. **GET**: if we want to get all data (person) from People table, we need to select it from that table.
+2. **DELETE**: we want to delete all data from our People table.
+3. **INSERT**: we will insert/store data into the table.
+4. **UPDATE**: we have stored the data, but we want to update it.
+
+Ruby on Rails recommends to create three databases - a database each for development, testing, and production environment.
+
+The development environment is used on your development computer as you interact manually with the application
+The test environment is used to run automated tests
+The production environment is used when you deploy your application for the world to use.
+
+Below are Additional codes that you may need to get familiar with, on your journey to learn rails.
+
+- Rails db:create
+- Rails db:migrate
+- Rails db:drop
+- Rails db:reset
+
+**See also:** 
+[Recommended learning materials](https://guides.rubyonrails.org/v2.3/getting_started.html)
+
 
 
