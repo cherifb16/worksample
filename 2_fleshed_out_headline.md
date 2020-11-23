@@ -143,15 +143,26 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 
 This marks the end of this documentation , I hope you did benefit a lot from it and that it helped you on your journey to study ruby on rails. There is still a lot to learn and the more you dig deeper the more fun rails gets. Ruby on rails is one of the kind framework that can develop 
 prototypes as quickly  as it gets.The strength of the framework keeps coding quality constant. Other than that it has no compilation and is short as possible. At the end of this documentation I have attached different helpful articles relating to ruby on rails and feel free to reach out for more clarifications. Thank you.
-
-### Ruby Gems
-### **See also:** 
-[Recommended learning materials](https://devcenter.heroku.com/articles/git)
-
-
+### RUBY ENVIRONMENT 
+### **helpful contents:** 
+[RUBY ENVIRONMENT SET UP](https://www.tutorialspoint.com/ruby/ruby_environment.htm)
+###
+[MORE INFOS](https://www.pluralsight.com/guides/how-to-set-up-a-ruby-development-environment)
 ### MVC
-
+### Ruby Gems
+### **helpful contents:** 
+[more about ruby gems](https://github.com/rubygems/rubygems)
+###
+[ruby gems basic](https://www.javatpoint.com/ruby-on-rails-mvc)
+### MVC
+### **helpful contents:** 
+[ruby on rails MVC](https://www.tutorialspoint.com/ruby-on-rails/rails-framework.htm)
+###
+[more contents](https://www.javatpoint.com/ruby-on-rails-mvc)
 ### POSTGRESQL DATABASE
-
+### **helpful contents:** 
+[POSTGRESQL set up](https://www.digitalocean.com/community/tutorials/how-to-set-up-ruby-on-rails-with-postgres)
 
 ### HEROKU
+### **helpful contents:** 
+[deploy on heroku](https://www.makeschool.com/academy/track/standalone/going-react/deploy-to-heroku)
