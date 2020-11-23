@@ -1,4 +1,4 @@
-###This is an explanation of how to use "singular" and "plural" properly in Rails.
+# This is an explanation of how to use "singular" and "plural" properly in Rails.
 
 ## question
 
@@ -45,7 +45,7 @@ Controller files go in `app/controllers/#{resource_name}_controller.rb`.
 
 back to your question thet is why "blogs" is specified for parameters when creating a controller.<br/>
 
-### let's consider now controllers.
+### let's consider now rake routes.
 
 Route names are `snake_case`, and usually match the controller. Most of the time routes are **plural** and use the plural `resources`.
 
