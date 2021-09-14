@@ -16,19 +16,19 @@ If your code is inside an instance method, self is an instance of that class. In
 self is an object.
 
 ### let' see an example
-
+```
 "def coffee<br/>
   puts self<br/>
 end<br/>
 coffee"<br/>
  main<br/>
-
+```
 This code defines & calls a coffee method which prints the value of self.<br/>
 
 Why is self useful?<br/>
 
 by example<br/>
-
+```
 "class Example <br/>
   def do_something<br/>
     banana = "variable"<br/>
@@ -39,7 +39,7 @@ by example<br/>
     "method"<br/>
   end<br/>
 end"<br/>
-
+```
 Example.new.do_something<br/>
  "variable"  => puts banana <br/>
  "method"    => puts self.banana <br/>
